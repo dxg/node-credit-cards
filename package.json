@@ -1,15 +1,28 @@
 {
   "name"     : "credit-cards",
-  "version"  : "0.5.0",
+  "description": "Validate & extract metadata from credit cards.",
+  "version"  : "0.5.2",
   "main"     : "lib/index.js",
   "scripts"  : {
     "test"   : "mocha test/lib/"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dxg/node-credit-cards.git"
+  },
+  "keywords": [
+    "credit", "card", "creditcards", "validate"
+  ],
+  "author"   : "Arek W <arek01@gmail.com>",
+  "license"  : "MIT",
   "dependencies": {
-    "luhn"  : "1.0.5"
+    "luhn"   : "1.0.5"
   },
   "devDependencies": {
     "mocha"  : "1.12.1",
     "should" : "1.2.2"
+  },
+  "bugs": {
+    "url"    : "https://github.com/dxg/node-credit-cards/issues"
   }
 }
