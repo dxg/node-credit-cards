@@ -1,0 +1,15 @@
+{
+  "name"     : "credit-cards",
+  "version"  : "0.5.0",
+  "main"     : "lib/index.js",
+  "scripts"  : {
+    "test"   : "mocha test/lib/"
+  },
+  "dependencies": {
+    "luhn"  : "1.0.5"
+  },
+  "devDependencies": {
+    "mocha"  : "1.12.1",
+    "should" : "1.2.2"
+  }
+}
