@@ -23,6 +23,8 @@ creditCards.getInfo('3478 7964 2068 802')
 ```
 
 === Advanced usage
+
+```js
 var creditCards = require('credit-cards')
 
 var scoped = creditCards({ accepted: ['VI', 'AX'] })
@@ -35,3 +37,4 @@ scoped.isAccepted('5290 6473 7075 0487')
 => false
 scoped.getInfo('5290 6473 7075 0487')
 => { valid: true, code: 'CA', name: 'Master Card', accepted: false }
+```
