@@ -1,7 +1,7 @@
 {
   "name"     : "credit-cards",
   "description": "Validate & extract metadata from credit cards.",
-  "version"  : "0.5.2",
+  "version"  : "0.5.3",
   "main"     : "lib/index.js",
   "scripts"  : {
     "test"   : "mocha test/lib/"
