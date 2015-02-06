@@ -23,6 +23,9 @@ describe("Credit cards", function () {
           valid: true, code: 'AX', name: 'American Express', test: false
         });
       });
+      it("should not try to accept non-existant caards", function () {
+        should.not.exist(creditCards.getInfo(' 0000 0000 0000 0000', {accepted:['none']}).accepted);
+      });
     });
   });
 
