@@ -1,0 +1,6 @@
+{
+  "colors"   : true,
+  "extension": "ts",
+  "recursive": true,
+  "require"  : ["ts-node/register"]
+}
